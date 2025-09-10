@@ -1,7 +1,7 @@
 
 /* Global variables */
-var who = "wooden shoe";
-var joke = "Wooden shoe like to know!";
+var who = "Gorbachev";
+var joke = "Gorbachev like to know!";
 var expected = who + " who?";
 
 /* Simple version */
@@ -16,7 +16,7 @@ function knockCheck(){
   prompt("Knock Knock!");
   var answer = prompt(who);
   if (answer == expected) alert(joke);
-  else alert("Huh?");
+  else alert("You want to be sent to Siberia?");
 }
 
 /* Best */
