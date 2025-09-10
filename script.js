@@ -1,7 +1,7 @@
 
 /* Global variables */
-var who = "Gorbachev";
-var joke = "Gorbachev like to know!";
+var who = "Stalin";
+var joke = "Stalin like to know!";
 var expected = who + " who?";
 
 /* Simple version */
@@ -29,7 +29,7 @@ function knockAgain(){
 }
 
 function askAgain() {
-  alert("Huh?");
+  alert("You want to be sent to Siberia?");
   var answer = prompt(who);
   if (answer == expected) alert(joke);
   else askAgain(); // recursion
