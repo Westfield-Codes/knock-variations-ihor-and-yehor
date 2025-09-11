@@ -1,7 +1,7 @@
 
 /* Global variables */
-var who = "Stalin";
-var joke = "Stalin like to know!";
+var who = "Tank";
+var joke = "You're welcome!";
 var expected = who + " who?";
 
 /* Simple version */
@@ -16,7 +16,7 @@ function knockCheck(){
   prompt("Knock Knock!");
   var answer = prompt(who);
   if (answer == expected) alert(joke);
-  else alert("You want to be sent to Siberia?");
+  else alert("Huh?");
 }
 
 /* Best */
@@ -29,7 +29,7 @@ function knockAgain(){
 }
 
 function askAgain() {
-  alert("You want to be sent to Siberia?");
+  alert("Huh?");
   var answer = prompt(who);
   if (answer == expected) alert(joke);
   else askAgain(); // recursion
